@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>smiley slider</title>
+</head>
+<body>
+    <div class="page">
+        <div class="slider-window">
+            <p class="question">How satisfied are you?</p>
+            <form action="range-slider">
+                <div class="container">
+                    <img class="little-unhappy-smiley" src="./img/little-unhappy-smiley.svg" alt="icone">
+                        <div class="slider-container">
+                            <div class="track">
+                                <div class="progress"></div>
+                                <div class="progress-zero"></div>
+                                    <div class="thumb-container">
+                                        <img class="smiley-face" src="./img/smiley-base.svg">
+                                        <div class="thumb"></div>
+                                </div>
+                            </div>
+                        </div>
+                    <img class="little-happy-smiley" src="./img/little-happy-smiley.svg" alt="icone">
+                </div>
+                <!-- <input class="range-slider" type="range" name="points" min="0" max="100" value="50"> -->
+                <button class="submit">submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
